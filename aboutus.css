@@ -1,0 +1,247 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+	margin-right: 10px;
+}
+.main-nav li a
+{
+	
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'Poppins';
+	font-size: 15px;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+h2 a
+{
+	font-family: 'Poppins';
+	
+}
+
+.header .logo
+ {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.body1
+{
+	font-family: 'Poppins';
+	height: 100%;
+	background: #9dada3;
+	background-image: linear-gradient(to bottom left, #DC5C3F , #420D0D 80%);
+	/*#346fb5, #221a6c, #221a6c,*/
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+  overflow: hidden;
+  background-color: transperent;
+  padding: 20px 10px;
+}
+
+
+
+
+.homeline
+{
+	font-family: 'Poppins';
+	margin: 5% 0% 0% 7%;
+	font-size: 22px;
+}
+.landimg img
+{
+	width: 550px;
+	height: auto;
+	margin: -25% 0% 0% 50%;
+	padding: 0% 0% 0% 0%;
+}
+.homeline p
+{
+	font-size: 50px;
+	margin-left: -3%;
+}
+
+.body2
+{
+	font-family: 'Poppins';
+	height: 100%;
+
+}
+.homeline2
+{
+	font-family: 'Poppins';
+	margin: 5% 10% 0% 7%;
+	font-size: 22px;
+}
+.landimg2 img
+{
+	width: 183%;
+	height: auto;
+	margin: 0% 0% 0% 188%;
+	padding: 0% 0% 0% 0%;
+}
+.landimg2
+{
+	float: left;
+}
+.homeline2 h1
+{
+	font-family: 'Poppins';
+	font-size: 50px;
+	margin-left: 50%;
+	width: 40%;
+}
+.homeline2 p
+{
+	margin-left: 50%;
+	font-size: 13px;
+	font-weight: bolder;
+}
+.row
+{
+	margin: 5%;
+	text-align: center;
+	padding: 4%;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+.column1
+{
+	float: left;
+	width: 50%;
+}
+.column2
+{
+	float: right;
+	width: 64%;
+    
+    margin-right: -20%;
+    margin-top: -7%;
+}
+
+@media screen and (max-width: 481px){
+
+
+  *
+{
+	margin: 0;
+	padding: 0;
+}
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'Poppins';
+	font-size: 15px;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+.logo img
+{
+	margin-top: 10px;
+	width: 100px;
+	height: auto;
+	float: left;
+}
+h2 a
+{
+	font-family: 'Poppins';
+	text-decoration: none;
+	font-size: 40px;
+	float: left;
+	margin-top: 2%;
+	margin-left: -1%;
+
+}
+body
+{
+	font-family: 'Poppins';
+	height: 100%;
+	background-image: linear-gradient(to bottom left, #3fa3dc , #130d42 80%);
+	/*#346fb5, #221a6c, #221a6c,*/
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	color: white;
+}
+
+
+
+.homeline
+{
+	font-family: 'Poppins';
+	margin: 15% 0% 0% 5%;
+	font-size: 13px;
+}
+.landimg img
+{
+	width: 550px;
+	height: auto;
+	margin: -40% 0% 0% 50%;
+	padding: 0% 0% 0% 0%;
+}
+
+
+}
+/*<div class="Homeline">
+<p style="text-align: center; float: left;"><b>About Us</b></p><br>
+		<ol>
+  <li>Android app Development(Flutter)</li>
+  <li>UI/UX designs for applications and websites</li>
+  <li>Content Writing</li>
+  <li>Backend Works</li>
+  <li>Unity Game Development</li>
+  <li>Frontend Development (HTML, CSS)</li>
+</ol> 
+
+		</div>
+
+	<div class="landimg">
+		<img src="group_presentation.svg">
+	</div>*/
